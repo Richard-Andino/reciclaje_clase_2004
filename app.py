@@ -6,7 +6,7 @@ import tensorflow as tf
 from PIL import Image
 
 st.set_page_config(page_title = "Reciclaje IA_ISC", layout = "centered")
-st.title("Modelo predictivo Reciclaje clase de IA-ISC-Campus Comayagua-2026")
+st.title("Modelo predictivo Reciclaje clase de IA-ISC-Campus Comayagua-2026 Richard Andino")
 st.write("Suba una imagen para clasificar con el modelo Mobilenet V2 pre entrenado")
 
 IMG_SIZE = (224,224)
