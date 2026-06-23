@@ -12,7 +12,7 @@ st.write("Suba una imagen para clasificar con el modelo Mobilenet V2 pre entrena
 IMG_SIZE = (224,224)
 MODEL_DIR = Path("modelo_reciclaje_mobilenet")
 CLASS_PATH = MODEL_DIR/"class_names.json"
-MODE_PATHS = [MODEL_DIR/"wate_mobilenet.keras", MODEL_DIR/"waste_mobilenet.h5"]
+MODE_PATHS = [MODEL_DIR/"waste_mobilenet.keras", MODEL_DIR/"waste_mobilenet.h5"]
 
 LABELS_ES={
   "cardboard": "Cartón",
